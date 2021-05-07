@@ -23,7 +23,7 @@ const io = socketio(server);
 const publicDirPath = path.join(__dirname, "../public");
 
 //* configure port for local and production environment
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3000;
 
 //* configure express to serve static files
 app.use(express.static(publicDirPath));
